@@ -1,0 +1,1 @@
+# Contains client for SKEll: Sketch Engine for language learning

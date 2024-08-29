@@ -1,0 +1,1 @@
+# Contains set of generators for differents note types

@@ -1,0 +1,1 @@
+# Contains generator for note type "Basic with random example"
