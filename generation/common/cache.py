@@ -1,0 +1,1 @@
+# Contains cache implementation. Intended to be used to store APIs responses locally.
