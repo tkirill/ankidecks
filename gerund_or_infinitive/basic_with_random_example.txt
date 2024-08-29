@@ -1,0 +1,4 @@
+#separator:tab
+#html:true
+#tags column:43
+enjoy	gerund		I enjoy&nbsp;travelling.	I don't enjoy&nbsp;waiting.																																						gerund_or_infinitive::gerund
