@@ -1,0 +1,795 @@
+{
+    "Query": "avoid .*?ing",
+    "User": "",
+    "MethodName": "concordance",
+    "CorpName": "/corpora/registry/skell_3_10",
+    "UiLang": "",
+    "AdSense": false,
+    "Mobile": false,
+    "Err": null,
+    "Lines": [
+        {
+            "Left": [
+                {
+                    "Str": "It must",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid attacking",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " biological life forms.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 7309
+        },
+        {
+            "Left": [
+                {
+                    "Str": "The language should",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid making",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " too many different things similar.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 12393
+        },
+        {
+            "Left": [
+                {
+                    "Str": "Scott",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoided using",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " green screens unless necessary.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 41420
+        },
+        {
+            "Left": [
+                {
+                    "Str": "This",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoids slowing",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " down regular build flavors.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 44229
+        },
+        {
+            "Left": [
+                {
+                    "Str": "You should still",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid making",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " late payments whenever possible.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 63643
+        },
+        {
+            "Left": [
+                {
+                    "Str": "Why does he keep",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoiding answering",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " direct questions?",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 127732
+        },
+        {
+            "Left": [
+                {
+                    "Str": "This should",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid conflicting",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " advice or approaches.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 128059
+        },
+        {
+            "Left": [
+                {
+                    "Str": "I already",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoided consuming",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " alcohol and pig meat.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 128962
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid using",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " blank posts as hinge posts.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 145715
+        },
+        {
+            "Left": [
+                {
+                    "Str": "A initial brands have",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoided offering",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " misuse results.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 162078
+        },
+        {
+            "Left": [
+                {
+                    "Str": "This includes",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoiding making",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " loud noises and using flash photography.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 168251
+        },
+        {
+            "Left": [
+                {
+                    "Str": "And please",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid going",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " off on global warming.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 187577
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid lifting",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " anything over 15 pounds until instructed otherwise.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 194405
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid writing",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " similar code in comparable situations.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 214003
+        },
+        {
+            "Left": [
+                {
+                    "Str": "Effective risk management should help",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid retaining",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " a loss accidentally.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 235646
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid being",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " frustrated by short term failing.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 237470
+        },
+        {
+            "Left": [
+                {
+                    "Str": "A similar ploy is used to",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid using",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " taboo words orally.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 275153
+        },
+        {
+            "Left": [
+                {
+                    "Str": "Be careful however to",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid overlapping",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " turns.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 279376
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid eating",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " foods with harsh chemical contents.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 283261
+        },
+        {
+            "Left": [
+                {
+                    "Str": "You can sometimes easily",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid being",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " tackled.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 284086
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid becoming",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " distracted while walking along a roadside.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 294928
+        },
+        {
+            "Left": [
+                {
+                    "Str": "Also",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid wearing",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " brightly colored or patterned clothing.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 305035
+        },
+        {
+            "Left": [
+                {
+                    "Str": "Two ranges are needed to",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid launching",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " near populated areas.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 309652
+        },
+        {
+            "Left": [
+                {
+                    "Str": "The trick was to",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid being",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " dummy.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 316171
+        },
+        {
+            "Left": [
+                {
+                    "Str": "One should",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid feeding",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " a single food type.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 331929
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid lying",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " face down for 4 hours.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 333931
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid putting",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " food scraps down the garbage disposal.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 348418
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid sleeping",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " anywhere except your normal sleeping location.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 351758
+        },
+        {
+            "Left": [
+                {
+                    "Str": "Physics instructors typically try to",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid confusing",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " students.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 359365
+        },
+        {
+            "Left": [
+                {
+                    "Str": "You should",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid erecting",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " these fences beneath overhead power cables.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 382986
+        },
+        {
+            "Left": [
+                {
+                    "Str": "The purchaser should",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid asking",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " for superfluous information.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 394129
+        },
+        {
+            "Left": [
+                {
+                    "Str": "Try to",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid using",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " personal recording devices.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 405984
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid using",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " the pronoun \"je\" too often.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 422139
+        },
+        {
+            "Left": [
+                {
+                    "Str": "Administrators should",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid creating",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " coercive programs with minimal resources.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 442552
+        },
+        {
+            "Left": [
+                {
+                    "Str": "Boyd believed effective organizations",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoided getting",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " bogged down in information.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 446795
+        },
+        {
+            "Left": [
+                {
+                    "Str": "The trick is",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoiding putting",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " too much pressure onto the tool.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 446989
+        },
+        {
+            "Left": [
+                {
+                    "Str": "They usually try to",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid giving",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " more information per liability issues.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 447843
+        },
+        {
+            "Left": [
+                {
+                    "Str": "So",
+                    "Class": "{}"
+                }
+            ],
+            "Kwic": [
+                {
+                    "Str": " avoid taking",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " side when kids fight.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 450248
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid beginning",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " communications and community involvement during whaling season.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 454481
+        },
+        {
+            "Left": [],
+            "Kwic": [
+                {
+                    "Str": "Avoid taking",
+                    "Class": "{col0 coll}"
+                }
+            ],
+            "Right": [
+                {
+                    "Str": " drugs to lower blood pressure before meals.",
+                    "Class": "{}"
+                }
+            ],
+            "TokenNum": 468068
+        }
+    ],
+    "RelSize": 22.7,
+    "RawSize": 27773,
+    "Finished": true
+}
