@@ -1,0 +1,72 @@
+<html>
+    <body>
+        <div id="front">
+            {{Front}}
+        </div>
+
+        <div id="back">
+            {{FrontSide}}
+
+            <hr id=answer>
+
+            {{Back}}
+
+            <div>
+                <blockquote id="example">
+                    <p>Huj</p>
+                </blockquote>
+            </div>
+
+            <script>
+                (function() {
+                    let examples = [
+                    "{{Example_0}}",
+                    "{{Example_1}}",
+                    "{{Example_2}}",
+                    "{{Example_3}}",
+                    "{{Example_4}}",
+                    "{{Example_5}}",
+                    "{{Example_6}}",
+                    "{{Example_7}}",
+                    "{{Example_8}}",
+                    "{{Example_9}}",
+                    "{{Example_10}}",
+                    "{{Example_11}}",
+                    "{{Example_12}}",
+                    "{{Example_13}}",
+                    "{{Example_14}}",
+                    "{{Example_15}}",
+                    "{{Example_16}}",
+                    "{{Example_17}}",
+                    "{{Example_18}}",
+                    "{{Example_19}}",
+                    "{{Example_20}}",
+                    "{{Example_21}}",
+                    "{{Example_22}}",
+                    "{{Example_23}}",
+                    "{{Example_24}}",
+                    "{{Example_25}}",
+                    "{{Example_26}}",
+                    "{{Example_27}}",
+                    "{{Example_28}}",
+                    "{{Example_29}}",
+                    "{{Example_30}}",
+                    "{{Example_31}}",
+                    "{{Example_32}}",
+                    "{{Example_33}}",
+                    "{{Example_34}}",
+                    "{{Example_35}}",
+                    "{{Example_36}}",
+                    "{{Example_37}}",
+                    "{{Example_38}}",
+                    "{{Example_39}}"
+                ];
+
+                let id = Math.floor(Math.random() * examples.length);
+                let q = document.getElementById("example");
+                q.innerHTML = examples[id];
+                })();
+            </script>
+        </div>
+    </body>
+</html>
