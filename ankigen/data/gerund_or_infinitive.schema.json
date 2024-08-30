@@ -4,6 +4,11 @@
     "title": "Gerund or infinitive",
     "description": "A set of verbs categorized by what they are followed by: gerund or infinitive",
     "type": "object",
+    "properties": {
+        "$schema": {
+            "type": "string"
+        }
+    },
     "additionalProperties": {
         "type": "object",
         "required": [
