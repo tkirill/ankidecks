@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://https://github.com/tkirill/ankidecks/ankigen/data/gerund_or_infinitive.schema.json",
+    "$id": "https://raw.githubusercontent.com/tkirill/ankidecks/main/ankigen/data/gerund_or_infinitive.schema.json",
     "title": "Gerund or infinitive",
     "description": "A set of verbs categorized by what they are followed by: gerund or infinitive",
     "type": "object",
