@@ -1,0 +1,39 @@
+{
+    "$schema": "https://raw.githubusercontent.com/tkirill/ankidecks/main/ankigen/data/gerund_or_infinitive.schema.json",
+    "afford": {
+        "verb": "afford",
+        "followed_by": ["infinitive"]
+    },
+    "admit": {
+        "verb": "admit",
+        "followed_by": ["gerund"]
+    },
+    "begin": {
+        "verb": "begin",
+        "followed_by": ["gerund", "infinitive"]
+    },
+    "hate (focus on the process)": {
+        "verb": "hate",
+        "followed_by": ["gerund"]
+    },
+    "hate (focus on the result, outcome, object)": {
+        "verb": "hate",
+        "followed_by": ["infinitive"]
+    },
+    "forget (about something that happened)": {
+        "verb": "forget",
+        "followed_by": ["gerund"]
+    },
+    "forget (to do something)": {
+        "verb": "forget",
+        "followed_by": ["infinitive"]
+    },
+    "let": {
+        "verb": "let",
+        "followed_by": ["bare infinitive"]
+    },
+    "help": {
+        "verb": "help",
+        "followed_by": ["infinitive", "bare infinitive"]
+    }
+}
