@@ -4,35 +4,35 @@
     "title": "Gerund or infinitive",
     "description": "A set of verbs categorized by what they are followed by: gerund or infinitive",
     "type": "object",
-    "properties": {
-        "$schema": {
-            "type": "string"
-        }
-    },
     "additionalProperties": {
-        "type": "object",
-        "required": [
-            "verb",
-            "followed_by"
-        ],
-        "properties": {
-            "verb": {
-                "description": "Corresponding verb",
-                "type": "string"
-            },
-            "followed_by": {
-                "description": "What form the verb is followed by",
-                "type": "array",
-                "items": {
-                    "type": "string",
-                    "enum": [
-                        "gerund",
-                        "infinitive",
-                        "bare infinitive"
-                    ]
+        "$ref": "#/$defs/GerundOrInfinitiveItem"
+    },
+    "$defs": {
+        "GerundOrInfinitiveItem" : {
+            "type": "object",
+            "required": [
+                "verb",
+                "followed_by"
+            ],
+            "properties": {
+                "verb": {
+                    "description": "Corresponding verb",
+                    "type": "string"
                 },
-                "minItems": 1,
-                "uniqueItems": true
+                "followed_by": {
+                    "description": "What form the verb is followed by",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "gerund",
+                            "infinitive",
+                            "bare infinitive"
+                        ]
+                    },
+                    "minItems": 1,
+                    "uniqueItems": true
+                }
             }
         }
     }
