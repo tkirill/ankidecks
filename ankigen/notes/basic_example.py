@@ -1,1 +1,9 @@
-# Contains generator for note type "Basic with random example"
+from dataclasses import dataclass
+from typing import List
+
+
+@dataclass
+class BasicExampleNote:
+    front: str
+    back: str
+    examples: List[str]

@@ -22,3 +22,7 @@ class GerundOrInfinitiveItem:
 
 
 GerundOrInfinitive = Optional[Dict[str, GerundOrInfinitiveItem]]
+
+
+def read_gerund_or_infinitive_data(filename: str) -> GerundOrInfinitive:
+    pass
