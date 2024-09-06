@@ -30,10 +30,10 @@
     },
     "let": {
         "verb": "let",
-        "followed_by": ["bare infinitive"]
+        "followed_by": ["bare_infinitive"]
     },
     "help": {
         "verb": "help",
-        "followed_by": ["infinitive", "bare infinitive"]
+        "followed_by": ["infinitive", "bare_infinitive"]
     }
 }

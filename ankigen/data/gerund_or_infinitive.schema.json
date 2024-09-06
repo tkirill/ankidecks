@@ -27,7 +27,7 @@
                         "enum": [
                             "gerund",
                             "infinitive",
-                            "bare infinitive"
+                            "bare_infinitive"
                         ]
                     },
                     "minItems": 1,
