@@ -1,7 +1,17 @@
-from ankigen.data.gerund_or_infinitive import read_gerund_or_infinitive_data, GerundOrInfinitiveItem, FollowedByEnum
+import json
+
+from ankigen.gerund_or_infinitive.models import GerundOrInfinitive, FollowedByEnum
 from ankigen.notes.output import write_notes_to_path
 from ankigen.notes.basic_example import BasicExampleNote
 from ankigen.concordance.skell import SkellConcordance
+
+
+def read_gerund_or_infinitive_data(filename: str) -> GerundOrInfinitive:
+    with open(filename) as f:
+        raw = json.load(f)
+    if '$schema' in raw:
+        del raw['$schema']
+    return GerundOrInfinitive.model_validate(raw)
 
 
 def get_query_for_item(verb: str, followed_by: FollowedByEnum) -> str:
@@ -15,10 +25,10 @@ def get_query_for_item(verb: str, followed_by: FollowedByEnum) -> str:
 
 
 def generate_gerunds_or_infinitive():
-    data = read_gerund_or_infinitive_data('./ankigen/data/gerund_or_infinitive.json')
+    data = read_gerund_or_infinitive_data('./ankigen/gerund_or_infinitive/gerund_or_infinitive.json')
     skell = SkellConcordance()
     notes = []
-    for key, item in data.items():
+    for key, item in data.root.items():
         for followed_by in item.followed_by:
             query = get_query_for_item(item.verb, followed_by)
             examples = skell.get_examples(query)

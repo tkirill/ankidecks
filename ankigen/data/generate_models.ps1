@@ -1,1 +1,0 @@
-datamodel-codegen.exe --input .\gerund_or_infinitive.schema.json --input-file-type jsonschema --output gerund_or_infinitive.generated.py --output-model-type dataclasses.dataclass
