@@ -1,1 +1,0 @@
-# Contains set of different implementations of example sources

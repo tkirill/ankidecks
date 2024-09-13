@@ -3,7 +3,7 @@ import json
 from ankigen.gerund_or_infinitive.models import GerundOrInfinitive, FollowedByEnum
 from ankigen.notes.output import write_notes_to_path
 from ankigen.notes.basic_example import BasicExampleNote
-from ankigen.concordance.skell import SkellConcordance
+from ankigen.skell.concordance import SkellConcordance
 
 
 def read_gerund_or_infinitive_data(filename: str) -> GerundOrInfinitive:

@@ -1,0 +1,13 @@
+#separator:tab
+#tags column:43
+afford	infinitive	Example for afford to [a-z]+	gerund_or_infinitive::FollowedByEnum.infinitive
+admit	gerund	Example for admit .*?ing	gerund_or_infinitive::FollowedByEnum.gerund
+begin	gerund	Example for begin .*?ing	gerund_or_infinitive::FollowedByEnum.gerund
+begin	infinitive	Example for begin to [a-z]+	gerund_or_infinitive::FollowedByEnum.infinitive
+hate (focus on the process)	gerund	Example for hate .*?ing	gerund_or_infinitive::FollowedByEnum.gerund
+hate (focus on the result, outcome, object)	infinitive	Example for hate to [a-z]+	gerund_or_infinitive::FollowedByEnum.infinitive
+forget (about something that happened)	gerund	Example for forget .*?ing	gerund_or_infinitive::FollowedByEnum.gerund
+forget (to do something)	infinitive	Example for forget to [a-z]+	gerund_or_infinitive::FollowedByEnum.infinitive
+let	bare_infinitive	Example for let 	gerund_or_infinitive::FollowedByEnum.bare_infinitive
+help	infinitive	Example for help to [a-z]+	gerund_or_infinitive::FollowedByEnum.infinitive
+help	bare_infinitive	Example for help 	gerund_or_infinitive::FollowedByEnum.bare_infinitive

@@ -1,1 +1,13 @@
-# Contains cache implementation. Intended to be used to store APIs responses locally.
+from typing import Optional
+
+
+class FileCache:
+
+    def __init__(self, name: str):
+        self.name = name
+    
+    def get(self, key: str) -> Optional[str]:
+        pass
+
+    def set(self, key: str, value: str):
+        pass

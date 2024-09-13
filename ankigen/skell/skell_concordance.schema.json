@@ -1,0 +1,89 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/tkirill/ankidecks/main/ankigen/clients/skell_concordance.schema.json",
+    "title": "SKEll concordance response",
+    "description": "Response of SKEll's concordance API",
+    "type": "object",
+    "properties": {
+        "Query": {
+            "type": "string"
+        },
+        "User": {
+            "type": "string"
+        },
+        "MethodName": {
+            "type": "string"
+        },
+        "CorpName": {
+            "type": "string"
+        },
+        "UiLang": {
+            "type": "string"
+        },
+        "AdSense": {
+            "type": "boolean"
+        },
+        "Mobile": {
+            "type": "boolean"
+        },
+        "Err": {
+            "type": "object"
+        },
+        "Lines": {
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/ConcordanceItem"
+            }
+        }
+    },
+    "required": [
+        "Lines"
+    ],
+    "$defs": {
+        "ConcordanceItem" : {
+            "type": "object",
+            "properties": {
+                "Left": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/KwicItem"
+                    }
+                },
+                "Kwic": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/KwicItem"
+                    }
+                },
+                "Right": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/KwicItem"
+                    }
+                },
+                "TokenNum": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "Left",
+                "Kwic",
+                "Right"
+            ]
+        },
+        "KwicItem" : {
+            "type": "object",
+            "properties": {
+                "Str": {
+                    "type": "string"
+                },
+                "Class": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "Str"
+            ]
+        }
+    }
+}
