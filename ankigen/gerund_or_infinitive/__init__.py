@@ -26,13 +26,13 @@ def get_query_for_item(verb: str, followed_by: FollowedByEnum) -> str:
 
 def generate_gerunds_or_infinitive():
     data = read_gerund_or_infinitive_data('./ankigen/gerund_or_infinitive/gerund_or_infinitive.json')
-    skell = SkellConcordance()
-    notes = []
-    for key, item in data.root.items():
-        for followed_by in item.followed_by:
-            query = get_query_for_item(item.verb, followed_by)
-            examples = skell.get_examples(query)
-            tags = [f'gerund_or_infinitive::{followed_by}']
-            note = BasicExampleNote(key, followed_by, examples, tags)
-            notes.append(note)
+    with SkellConcordance() as skell:
+        notes = []
+        for key, item in data.root.items():
+            for followed_by in item.followed_by:
+                query = get_query_for_item(item.verb, followed_by)
+                examples = skell.get_examples(query)
+                tags = [f'gerund_or_infinitive::{followed_by}']
+                note = BasicExampleNote(key, followed_by, examples, tags)
+                notes.append(note)
     write_notes_to_path('gerund_or_infinitive.txt', notes)
