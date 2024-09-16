@@ -32,6 +32,7 @@ def generate_gerunds_or_infinitive():
             for followed_by in item.followed_by:
                 query = get_query_for_item(item.verb, followed_by)
                 examples = skell.get_examples(query)
+                examples.extend('' for _ in range(40-len(examples)))
                 tags = [f'gerund_or_infinitive::{followed_by}']
                 note = BasicExampleNote(key, followed_by, examples, tags)
                 notes.append(note)
