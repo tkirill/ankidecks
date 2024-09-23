@@ -1,0 +1,62 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/tkirill/ankidecks/main/ankigen/sketch/concordance.schema.json",
+    "title": "Sketch concordance response",
+    "description": "Response of SKETCH's concordance API",
+    "type": "object",
+    "properties": {
+        "Lines": {
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/ConcordanceLine"
+            }
+        }
+    },
+    "$defs": {
+        "ContextTerm": {
+            "type": "object",
+            "properties": {
+                "strc": {
+                    "type": "string"
+                },
+                "str": {
+                    "type": "string"
+                }
+            }
+        },
+        "KwicTerm": {
+            "type": "object",
+            "properties": {
+                "str": {
+                    "type": "string"
+                },
+                "coll": {
+                    "type": "integer"
+                }
+            }
+        },
+        "ConcordanceLine": {
+            "type": "object",
+            "properties": {
+                "Left": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/ContextTerm"
+                    }
+                },
+                "Kwic": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/KwicTerm"
+                    }
+                },
+                "Right": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/ContextTerm"
+                    }
+                }
+            }
+        }
+    }
+}
